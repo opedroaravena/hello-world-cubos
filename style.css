@@ -17,15 +17,48 @@ body {
   padding: 20px;
   font-family: "Share Tech Mono", monospace;
   color: white;
-  font-size: 50px;
+  font-size: 60px;
+}
+
+.title h1 {
+    text-shadow: 6px 6px rgb(255, 0, 157),
+               5px 5px rgb(255, 0, 157),
+               4px 4px rgb(255, 0, 157),
+               3px 3px rgb(255, 0, 157),
+               2px 2px rgb(255, 0, 157),
+               2px 2px rgb(255, 0, 157),
+               1px 1px rgb(255, 0, 157);
 }
 
 .title h2 {
     color: rgb(255, 0, 157);
+    text-shadow: 6px 6px white,
+               5px 5px white,
+               4px 4px white,
+               3px 3px white,
+               2px 2px white,
+               2px 2px white,
+               1px 1px white;
 }
 
-.title h3  {text-align: center;
+.title h3  {
+    text-align: center;
     padding: 20px;
-    font-family: "Share Tech Mono", monospace;
     color: white;
-    font-size: 50px;}
+    font-size: 50px;
+}
+
+.text { 
+    height: 200px;
+    position: sticky;
+    border: 3px solid green; 
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
